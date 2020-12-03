@@ -16,9 +16,10 @@ type password struct {
 	password string
 }
 
-func parseFile() int {
+func parseFile() (int, int) {
 
 	counter := 0
+	counter2 := 0
 
 	file, err := os.Open("input")
 	if err != nil {
@@ -33,12 +34,15 @@ func parseFile() int {
 		if pw.validatePw() {
 			counter++
 		}
+		if pw.validatePwMore() {
+			counter2++
+		}
 	}
 
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
-	return counter
+	return counter, counter2
 }
 
 
@@ -66,11 +70,21 @@ func (p *password) validatePw() bool {
 	return false
 }
 
+func (p *password) validatePwMore() bool {
+	index1 := p.lowLimit-1
+	index2 := p.highLimit-1
+
+
+	if (string(p.password[index1]) == p.searchLetter || string(p.password[index2]) == p.searchLetter) && !(string(p.password[index1]) == string(p.password[index2])) {
+		return true
+	}
+	return false
+}
 
 func main() {
-	yep := parseFile()
+	yep, rly := parseFile()
 	fmt.Println(yep)
-
+	fmt.Println(rly)
 }
 
 func checkerr(e error) {
