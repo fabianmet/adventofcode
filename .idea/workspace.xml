@@ -11,9 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6da2fb-f8b5-4435-b502-a4fbbedd0a28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,5 +101,9 @@
       <screen x="-2560" y="-399" width="2560" height="1417" />
     </state>
     <state x="-1524" y="109" key="#com.intellij.fileTypes.FileTypeChooser/-5120.-399.2560.1417/0.23.1751.1097/-2560.-399.2560.1417@-2560.-399.2560.1417" timestamp="1607009046705" />
+    <state x="563" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607096267767">
+      <screen x="0" y="23" width="1751" height="1097" />
+    </state>
+    <state x="563" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-5120.-399.2560.1417/0.23.1751.1097/-2560.-399.2560.1417@0.23.1751.1097" timestamp="1607096267767" />
   </component>
 </project>
