@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6da2fb-f8b5-4435-b502-a4fbbedd0a28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/3/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
